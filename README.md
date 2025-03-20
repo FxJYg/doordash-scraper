@@ -12,26 +12,13 @@ This project scrapes menu items from a DoorDash restaurant page using **Playwrig
 
 ## Setup Instructions  
 
-### **1️⃣ Install Rye**  
+### **1. Install Rye**  
 
-**Windows (PowerShell)**  
-```powershell
-irm https://rye.astral.sh/get | iex
-```
-Then restart your terminal **or** run:  
-```powershell
-refreshenv
-```
-
-**Linux/macOS**  
-```sh
-curl -sSf https://rye.astral.sh/get | bash
-source ~/.rye/env
-```
+https://rye.astral.sh/guide/installation/
 
 ---
 
-### **2️⃣ Clone the Repository**  
+### **2️. Clone the Repository**  
 ```sh
 git clone https://github.com/yourusername/doordash_scraper.git
 cd doordash_scraper
@@ -39,28 +26,22 @@ cd doordash_scraper
 
 ---
 
-### **3️⃣ Sync Dependencies**  
-```sh
-rye sync
-```
-
----
-
-### **4️⃣ Set Up Environment Variables**  
+### **3️. Set Up Environment Variables**  
 Create a **.env** file in the project root and add your **Scrapybara API Key**:  
 ```
 SCRAPYBARA_API_KEY=your_api_key_here
 ```
 ---
 
-### **5️⃣ Run the Script**  
-- **Windows**  
+### **4. Run the Script**    
   ```sh
-  rye run start
-  ```
-- **Linux/macOS**  
-  ```sh
-  rye run start
+  rye init
+  rye sycn
+  source .venv/Scripts/activate
+  rye add scrapybara
+  rye add undetected-playwright-patch
+  rye add dotenv
+  rye run python main.py
   ```
 
 ---
