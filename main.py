@@ -3,6 +3,7 @@ import os
 from scrapybara import Scrapybara
 from dotenv import load_dotenv
 from undetected_playwright.async_api import async_playwright
+import json
 
 load_dotenv()
 
@@ -101,7 +102,6 @@ async def main():
             instance,
             "https://www.doordash.com/store/panda-express-san-francisco-980938/12722988/?event_type=autocomplete&pickup=false",
         )
-        print(menu_list.keys())
     finally:
         # Be sure to close the browser instance after you're done!
         instance.stop()
