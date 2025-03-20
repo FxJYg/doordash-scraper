@@ -37,10 +37,11 @@ SCRAPYBARA_API_KEY=your_api_key_here
   ```sh
   rye init
   rye sycn
-  .venv/Scripts/activate
+  source .venv/Scripts/activate
   rye add scrapybara
   rye add undetected-playwright-patch
   rye add dotenv
+  rye run python main.py
   ```
 
 ---
