@@ -53,14 +53,13 @@ SCRAPYBARA_API_KEY=your_api_key_here
 ```
 ---
 
-### **5️⃣ Run the Script**  
-- **Windows**  
+### **5️⃣ Run the Script**    
   ```sh
-  rye run start
-  ```
-- **Linux/macOS**  
-  ```sh
-  rye run start
+  rye init
+  source .venv/bin/activate
+  rye add scrapybara
+  rye add undetected-playwright-patch
+  rye add dotenv
   ```
 
 ---
