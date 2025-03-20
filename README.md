@@ -14,20 +14,7 @@ This project scrapes menu items from a DoorDash restaurant page using **Playwrig
 
 ### **1️⃣ Install Rye**  
 
-**Windows (PowerShell)**  
-```powershell
-irm https://rye.astral.sh/get | iex
-```
-Then restart your terminal **or** run:  
-```powershell
-refreshenv
-```
-
-**Linux/macOS**  
-```sh
-curl -sSf https://rye.astral.sh/get | bash
-source ~/.rye/env
-```
+https://rye.astral.sh/guide/installation/
 
 ---
 
