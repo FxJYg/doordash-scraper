@@ -12,13 +12,13 @@ This project scrapes menu items from a DoorDash restaurant page using **Playwrig
 
 ## Setup Instructions  
 
-### **1️⃣ Install Rye**  
+### **1. Install Rye**  
 
 https://rye.astral.sh/guide/installation/
 
 ---
 
-### **2️⃣ Clone the Repository**  
+### **2️. Clone the Repository**  
 ```sh
 git clone https://github.com/yourusername/doordash_scraper.git
 cd doordash_scraper
@@ -26,14 +26,14 @@ cd doordash_scraper
 
 ---
 
-### **3️⃣ Set Up Environment Variables**  
+### **3️. Set Up Environment Variables**  
 Create a **.env** file in the project root and add your **Scrapybara API Key**:  
 ```
 SCRAPYBARA_API_KEY=your_api_key_here
 ```
 ---
 
-### **5️⃣ Run the Script**    
+### **4. Run the Script**    
   ```sh
   rye init
   rye sycn
