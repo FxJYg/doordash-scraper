@@ -1,28 +1,66 @@
-# doordash-scraper
+# doordash-scraper 
 
-## Description
-This script scrapes menu items from a DoorDash restaurant page using Playwright and Scrapybara.
+This project scrapes menu items from a DoorDash restaurant page using **Playwright** and **Scrapybara**.  
 
-## Setup Instructions
+## Features  
+Uses **Scrapybara** for automated browser management  
+Fetches **detailed menu item data** from DoorDash  
+Works on **Windows, macOS, and Linux**  
+Uses **Rye** for package management  
 
-### Install Rye
+---
+
+## Setup Instructions  
+
+### **1️⃣ Install Rye**  
+
+**Windows (PowerShell)**  
+```powershell
+irm https://rye.astral.sh/get | iex
+```
+Then restart your terminal **or** run:  
+```powershell
+refreshenv
+```
+
+**Linux/macOS**  
 ```sh
 curl -sSf https://rye.astral.sh/get | bash
 source ~/.rye/env
 ```
 
+---
+
+### **2️⃣ Clone the Repository**  
 ```sh
 git clone https://github.com/yourusername/doordash_scraper.git
 cd doordash_scraper
+```
+
+---
+
+### **3️⃣ Sync Dependencies**  
+```sh
 rye sync
 ```
 
-### Create a .env file with your Scrapybara API key
-```sh
+---
+
+### **4️⃣ Set Up Environment Variables**  
+Create a **.env** file in the project root and add your **Scrapybara API Key**:  
+```
 SCRAPYBARA_API_KEY=your_api_key_here
 ```
+---
 
-### Run the Script
-```sh
-rye run start
-```
+### **5️⃣ Run the Script**  
+- **Windows**  
+  ```sh
+  rye run start
+  ```
+- **Linux/macOS**  
+  ```sh
+  rye run start
+  ```
+
+---
