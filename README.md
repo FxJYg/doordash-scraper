@@ -3,10 +3,10 @@
 This project scrapes menu items from a DoorDash restaurant page using **Playwright** and **Scrapybara**.  
 
 ## Features  
--Uses **Scrapybara** for automated browser management  
--Fetches **detailed menu item data** from DoorDash  
--Works on **Windows, macOS, and Linux**  
--Uses **Rye** for package management  
+- Uses **Scrapybara** for automated browser management  
+- Fetches **detailed menu item data** from DoorDash  
+- Works on **Windows, macOS, and Linux**  
+- Uses **Rye** for package management  
 
 ---
 
