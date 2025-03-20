@@ -21,7 +21,7 @@ https://rye.astral.sh/guide/installation/
 ### **2️. Clone the Repository**  
 ```sh
 git clone https://github.com/FxJYg/doordash-scraper.git
-cd doordash_scraper
+cd doordash-scraper
 ```
 
 ---
