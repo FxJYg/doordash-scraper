@@ -37,7 +37,10 @@ SCRAPYBARA_API_KEY=your_api_key_here
   ```sh
   rye init
   rye sycn
-  source .venv/Scripts/activate
+  
+  source .venv/Scripts/activate # on bash
+  .venv/Scripts/activate # on powershell (windows)
+  
   rye add scrapybara
   rye add undetected-playwright-patch
   rye add dotenv
