@@ -26,14 +26,7 @@ cd doordash_scraper
 
 ---
 
-### **3️⃣ Sync Dependencies**  
-```sh
-rye sync
-```
-
----
-
-### **4️⃣ Set Up Environment Variables**  
+### **3️⃣ Set Up Environment Variables**  
 Create a **.env** file in the project root and add your **Scrapybara API Key**:  
 ```
 SCRAPYBARA_API_KEY=your_api_key_here
@@ -43,7 +36,8 @@ SCRAPYBARA_API_KEY=your_api_key_here
 ### **5️⃣ Run the Script**    
   ```sh
   rye init
-  source .venv/bin/activate
+  rye sycn
+  .venv/Scripts/activate
   rye add scrapybara
   rye add undetected-playwright-patch
   rye add dotenv
